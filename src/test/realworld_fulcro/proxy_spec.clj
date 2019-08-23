@@ -1,6 +1,6 @@
 (ns realworld-fulcro.proxy-spec
   (:require
-    [clojure.test :refer :all]
+    [nubank.workspaces.core :refer [deftest]]
     [fulcro-spec.core :refer [specification behavior assertions provided component when-mocking]]
     [clojure.test :refer :all]))
 
